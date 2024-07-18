@@ -7,6 +7,9 @@
 # # Tuples : tup ((10, "hello", 200.3))
 # # Sets : set ({"a", "b"})
 # # Booleans :bool (True or False)
-
+a = 2
+b = 3
+sum(a+b)
+print(sum)
 
 
