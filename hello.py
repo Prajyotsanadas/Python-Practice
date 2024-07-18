@@ -9,27 +9,27 @@
 # name = input("What is your name? : ") #This takes data from user
 # print (name)
 
-#Variables can be changed
-name = "Jack"
-print(name)
+# #Variables can be changed
+# name = "Jack"
+# print(name)
 
-name = "Angela"
-print(name)
+# name = "Angela"
+# print(name)
 
-name = input("Whats your name? :")
-length = len(name)
-print(length) # This finds the length of your name
+# name = input("Whats your name? :")
+# length = len(name)
+# print(length) # This finds the length of your name
 
-#Code challenge: 
-#There are 2 variables : a and b, Write a program that switches the value stored in the variables a and b.
-a = input()
-b = input()
+# # #Code challenge: 
+# #There are 2 variables : a and b, Write a program that switches the value stored in the variables a and b.
+# a = input()
+# b = input()
 
-c = a # Creating a third variable will help switch the input
-a = b
-b = c 
+# c = a # Creating a third variable will help switch the input
+# a = b
+# b = c 
 
-print("a: " + a)
-print("b: " + b)
+# print("a: " + a)
+# print("b: " + b)
 
 
