@@ -33,26 +33,26 @@
 # print("b: " + b)
 
 
-# questions
-#1. Create a greeting for your program
-#2. Ask the user the city that they grew up in
-#3. Ask the user for the name of a pet.
-#4.Combine the names of their city and pet and show them their band name
-#5. Make sure the input cursor shows on a new line
+# # questions
+# #1. Create a greeting for your program
+# #2. Ask the user the city that they grew up in
+# #3. Ask the user for the name of a pet.
+# #4.Combine the names of their city and pet and show them their band name
+# #5. Make sure the input cursor shows on a new line
 
-# 1. 
-name = input("Please enter your name: ")
-print("Welcome", name)
-#2.
-city = input("Which city did you grew up in ?: ")
-print(city)
-#3.
-pet = input("Please enter the name of your favourite pet: ")
-print(pet)
-#4.
-bandname = city + pet
-print("Your band name is: " + bandname)
-print("Your band name is: " +  " " + city + " " + pet)
+# # 1. 
+# name = input("Please enter your name: ")
+# print("Welcome", name)
+# #2.
+# city = input("Which city did you grew up in ?: ")
+# print(city)
+# #3.
+# pet = input("Please enter the name of your favourite pet: ")
+# print(pet)
+# #4.
+# bandname = city + pet
+# print("Your band name is: " + bandname)
+# print("Your band name is: " +  " " + city + " " + pet)
 
 
 
