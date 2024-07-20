@@ -7,9 +7,13 @@
 # # Tuples : tup ((10, "hello", 200.3))
 # # Sets : set ({"a", "b"})
 # # Booleans :bool (True or False)
-a = 2
-b = 3
-sum(a+b)
-print(sum)
+# a = 2
+# b = 3
+# sum(a+b)
+# print(sum)
 
+# Datatypes, numbers, operations, Type Conversion, f-strings
+#Primitive Datatypes:
+print(len("Hello")) #To find length of the character
+print(len(12345))
 
