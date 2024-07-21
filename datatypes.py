@@ -17,12 +17,21 @@
 # print(len("Hello")) #To find length of the character
 # print(len(12345)) ##This will show error
 
-## Datatypes:
-## String
-print("Hello")
-print("Hello"[0]) #To print the 1st character i.e. zero index aka subscripting
-   
-##Integer 
-##Float 
-##Boolean
+# ## Datatypes:
+
+# ## String
+# print("Hello")
+# print("Hello"[0]) #To print the 1st character i.e. zero index aka subscripting
+# print("123" + "456") #concatinates 
+
+# ##Integer 
+# print(123)
+# print(123+345) #Calculates
+
+# ##Float 
+# print(3.1234)
+
+# ##Boolean
+# ##True or False
+
 
