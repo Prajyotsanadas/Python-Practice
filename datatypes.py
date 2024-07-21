@@ -12,8 +12,17 @@
 # sum(a+b)
 # print(sum)
 
-# Datatypes, numbers, operations, Type Conversion, f-strings
-#Primitive Datatypes:
-print(len("Hello")) #To find length of the character
-print(len(12345))
+# # Datatypes, numbers, operations, Type Conversion, f-strings
+# #Primitive Datatypes:
+# print(len("Hello")) #To find length of the character
+# print(len(12345)) ##This will show error
+
+## Datatypes:
+## String
+print("Hello")
+print("Hello"[0]) #To print the 1st character i.e. zero index aka subscripting
+   
+##Integer 
+##Float 
+##Boolean
 
