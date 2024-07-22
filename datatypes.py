@@ -15,7 +15,7 @@
 # # Datatypes, numbers, operations, Type Conversion, f-strings
 # #Primitive Datatypes:
 # print(len("Hello")) #To find length of the character
-# print(len(12345)) ##This will show error
+# print(len(12345)) ##This will show error (Type error)
 
 # ## Datatypes:
 
