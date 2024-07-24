@@ -16,6 +16,8 @@
 # #Primitive Datatypes:
 # print(len("Hello")) #To find length of the character
 # print(len(12345)) ##This will show error (Type error)
+num_char = len(input("Whats your name ? : "))
+print("Your name has" + num_char + "characters")
 
 # ## Datatypes:
 
