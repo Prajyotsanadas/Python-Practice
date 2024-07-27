@@ -15,9 +15,12 @@
 # # Datatypes, numbers, operations, Type Conversion, f-strings
 # #Primitive Datatypes:
 # print(len("Hello")) #To find length of the character
+
+#Types and error:
 # print(len(12345)) ##This will show error (Type error)
 num_char = len(input("Whats your name ? : "))
-print("Your name has" + num_char + "characters")
+#print("Your name has" + num_char + "characters")  #Type error: can only concatenate str (not "int") to str
+print(type(num_char))
 
 # ## Datatypes:
 
