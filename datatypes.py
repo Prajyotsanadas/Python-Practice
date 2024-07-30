@@ -16,11 +16,20 @@
 # #Primitive Datatypes:
 # print(len("Hello")) #To find length of the character
 
-#Types and error:
-# print(len(12345)) ##This will show error (Type error)
-num_char = len(input("Whats your name ? : "))
-#print("Your name has" + num_char + "characters")  #Type error: can only concatenate str (not "int") to str
-print(type(num_char))
+# #Types and error:
+# #print(len(12345)) ##This will show error (Type error: object of type 'int' has no len())
+
+# # num_char = len(input("Whats your name ? : "))
+# #print("Your name has" + num_char + "characters")  #Type error: can only concatenate str (not "int") to str
+# # print(type(num_char))
+
+# ## The solution to above error can be written as:
+# num_char = len(input("Whats your name ? : "))
+# new_num_char = str(num_char)
+# print("Your name has" + " " + new_num_char + " " +"characters")  
+
+
+
 
 # ## Datatypes:
 
