@@ -28,11 +28,11 @@
 # new_num_char = str(num_char)
 # print("Your name has" + " " + new_num_char + " " +"characters")  
 
-a = 123
-print(type(a)) # integer
+# a = 123
+# print(type(a)) # integer
 
-b = str(123)
-print(type(b))
+# b = str(123)
+# print(type(b))
 
 # ## Datatypes:
 
@@ -52,3 +52,8 @@ print(type(b))
 # ##True or False
 
 
+
+
+a = input("What is your name ?: ")
+b = str(len(a))
+print("The length of your name" + " " + a +" " + "is" + " " + b)
