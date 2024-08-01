@@ -54,6 +54,6 @@
 
 
 
-a = input("What is your name ?: ")
-b = str(len(a))
-print("The length of your name" + " " + a +" " + "is" + " " + b)
+# a = input("What is your name ?: ")
+# b = str(len(a))
+# print("The length of your name" + " " + a +" " + "is" + " " + b)
