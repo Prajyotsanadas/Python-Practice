@@ -63,3 +63,16 @@
 # # b = str(len(a))
 # # print("The length of your name" + " " + a +" " + "is" + " " + b)
 
+
+######Code challenge######
+## Write a program that adds the digit in 2 digit number. e.g. if the input was 35 then the output should be 3 + 5 = 8
+##Solution:
+two_digit_number = input("Enter a 2 digit number: ")
+
+first_digit_number = int(two_digit_number[0])
+second_digit_number = int(two_digit_number[1])
+
+#Add the two integer together
+two_digit_number = first_digit_number + second_digit_number
+
+print(two_digit_number )
