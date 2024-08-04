@@ -64,15 +64,23 @@
 # # print("The length of your name" + " " + a +" " + "is" + " " + b)
 
 
-######Code challenge######
-## Write a program that adds the digit in 2 digit number. e.g. if the input was 35 then the output should be 3 + 5 = 8
-##Solution:
-two_digit_number = input("Enter a 2 digit number: ")
+# ######Code challenge######
+# ## Write a program that adds the digit in 2 digit number. e.g. if the input was 35 then the output should be 3 + 5 = 8
+# ##Solution:
+# two_digit_number = input("Enter a 2 digit number: ")
 
-first_digit_number = int(two_digit_number[0])
-second_digit_number = int(two_digit_number[1])
+# first_digit_number = int(two_digit_number[0])
+# second_digit_number = int(two_digit_number[1])
 
-#Add the two integer together
-two_digit_number = first_digit_number + second_digit_number
+# #Add the two integer together
+# two_digit_number = first_digit_number + second_digit_number
 
-print(two_digit_number )
+# print(two_digit_number )
+
+
+sum_of_two_digit = input("Please enter a valid 2 digit number: ")
+first_input = int(sum_of_two_digit[0])
+second_input = int(sum_of_two_digit[1])
+sum = first_input + second_input
+
+print(sum)
